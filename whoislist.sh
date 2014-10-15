@@ -1,6 +1,6 @@
 #!/bin/bash
-for expose2 in `cat expose2.log`
+for expose5 in `cat expose5.log`
 do
-   echo $expose2
-   `whois $expose2 >> whois-results.txt`
+   echo $expose5
+   `whois $expose5 >> whois-results.txt`
 done
